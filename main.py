@@ -43,5 +43,9 @@ with open("currency.csv", "a", encoding="utf-8", newline="") as file:
     
     writer.writerow(row)
 
-print(f'Last dolar quotation: {file_read[-1]}')
-print(f'Updated quotation: {list(row.values())} ')
+if not create_header: 
+    print(f'Last Update: {file_read[-1][0]}, {file_read[-1][1]} {file_read[-1][2]}th, {file_read[-1][4]}. Time: {file_read[-1][3]}. \
+USD to BRL Quotation: R${file_read[-1][-1]}')
+    print(f'Updated quotation: R${list(row.values())[-1]}')
+else:
+    print(f'Updated quotation: R${list(row.values())[-1]}')
