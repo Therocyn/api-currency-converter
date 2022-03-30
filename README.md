@@ -10,5 +10,5 @@ The program takes the quotation of Dolar to Brazilian Real from the exchange API
 ```bash
 [~]         $ git clone https://github.com/Therocyn/api-currency-converter
 [~]         cd api-currency-converter
-[~]         python main.py
+[~/api-currency-converter]         python main.py
 ```
