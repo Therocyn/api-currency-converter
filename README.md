@@ -6,7 +6,7 @@ The program takes the quotation of Dolar to Brazilian Real from the exchange API
 ## Compilation Instructions 💿
 
 1. To run the code you need to download the [Java JDK](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html).
-2. With [Python](https://www.python.org/) installed, clone the repository:
+2. With [Python](https://www.python.org/) installed, follow the workflow:
 ```bash
 [~]         $ git clone https://github.com/Therocyn/api-currency-converter
 [~]         cd api-currency-converter
